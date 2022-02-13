@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ui.cart.SecondFragment">
+
+        <TextView
+            android:id="@+id/textview_second"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/buttom_submit_order"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/buttom_submit_order"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/submit_order_text"
+            app:layout_constraintEnd_toEndOf="@+id/cvv_edittext"
+            app:layout_constraintStart_toStartOf="@+id/expired_date"
+            app:layout_constraintTop_toBottomOf="@+id/expired_date" />
+
+        <TextView
+            android:id="@+id/shipping_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:text="@string/shipping_label_text"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/name_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="@string/name_label_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/shipping_label"
+            app:layout_constraintTop_toBottomOf="@+id/shipping_label" />
+
+        <EditText
+            android:id="@+id/phone_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/phone_text_hint"
+            android:inputType="phone"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/name_edittext"
+            app:layout_constraintStart_toStartOf="@+id/name_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/name_edittext" />
+
+        <EditText
+            android:id="@+id/address_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/address_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/phone_edittext"
+            app:layout_constraintStart_toStartOf="@+id/phone_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/phone_edittext" />
+
+        <Spinner
+            android:id="@+id/spinner_country"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            app:layout_constraintStart_toStartOf="@+id/address_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/address_edittext"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/zipcode_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/zipcode_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/address_edittext"
+            app:layout_constraintStart_toEndOf="@+id/spinner_country"
+            app:layout_constraintTop_toBottomOf="@+id/address_edittext"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Spinner
+            android:id="@+id/spinner_city"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@id/zipcode_edittext"
+            app:layout_constraintStart_toStartOf="@+id/spinner_country"
+            app:layout_constraintTop_toBottomOf="@+id/zipcode_edittext"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <Spinner
+            android:id="@+id/spinner_province"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/spinner_city"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/spinner_city"
+            app:layout_constraintTop_toBottomOf="@+id/spinner_city"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/payment_label"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="@string/payment_label_text"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="@+id/spinner_province"
+            app:layout_constraintStart_toStartOf="@+id/spinner_province"
+            app:layout_constraintTop_toBottomOf="@+id/textview_second" />
+
+        <EditText
+            android:id="@+id/cardtype_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/cardtype_editext_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/payment_label"
+            app:layout_constraintStart_toStartOf="@+id/payment_label"
+            app:layout_constraintTop_toBottomOf="@+id/payment_label" />
+
+        <EditText
+            android:id="@+id/name_on_card_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/name_on_card_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardtype_edittext"
+            app:layout_constraintStart_toStartOf="@+id/cardtype_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/cardtype_edittext" />
+
+        <EditText
+            android:id="@+id/cardnumber_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/cardnumber_hint"
+            android:inputType="number"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/name_on_card_edittext"
+            app:layout_constraintStart_toStartOf="@+id/name_on_card_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/name_on_card_edittext"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/expired_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/expired_date_hint"
+            android:inputType="date"
+            app:layout_constraintStart_toStartOf="@+id/cardnumber_edittext"
+            app:layout_constraintTop_toBottomOf="@+id/cardnumber_edittext"
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck" />
+
+        <EditText
+            android:id="@+id/cvv_edittext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:ems="10"
+            android:hint="@string/cvv_hint"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/cardnumber_edittext"
+            app:layout_constraintStart_toEndOf="@+id/expired_date"
+            app:layout_constraintTop_toBottomOf="@+id/cardnumber_edittext" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

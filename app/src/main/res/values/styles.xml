@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="TotalTextStyle" parent="@android:style/TextAppearance.Material.Small">
+        <item name="background">
+            @color/builder_grey
+        </item>
+        <item name="android:paddingTop">
+            @dimen/total_padding_top
+        </item>
+        <item name="android:paddingBottom">
+            @dimen/total_padding_bottom
+        </item>
+        <item name="android:layout_marginBottom">
+            @dimen/total_margin_bottom
+        </item>
+    </style>
+    <style name="TotalTextStyle.TotalFigureStyle">
+        <item name="android:textColor"
+            >
+            @color/primaryDarkColor
+        </item>
+    </style>
+</resources>

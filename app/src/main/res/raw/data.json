@@ -1,0 +1,34 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "name":"Nails" ,
+      "price":2000 ,
+      "rating":4
+
+
+    },
+    {
+      "id": 2,
+      "name":"Cement",
+      "price":3000 ,
+      "rating":2
+
+
+    }
+    ,
+    {
+      "id": 3,
+      "name": "Tiles",
+      "price":500,
+      "rating":3
+    }
+    ,
+    {
+      "id": 4,
+      "name":"Hammer",
+      "price":5700 ,
+      "rating":5
+    }
+  ]
+}

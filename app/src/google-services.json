@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "694693192540",
+    "project_id": "builda-fe325",
+    "storage_bucket": "builda-fe325.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:694693192540:android:9eeee70b1923b50bec5799",
+        "android_client_info": {
+          "package_name": "com.edcompanies.builda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "694693192540-pv4ulks4toj0k60ol9ks9b3p6v6ldir2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.edcompanies.builda",
+            "certificate_hash": "78a5c4febce0898e2c0dbcfe07b3679a578799df"
+          }
+        },
+        {
+          "client_id": "694693192540-t86gsdv3ikfkpd23ai805rr5cidbad62.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAgzJc9gV6VF1PRXIRT0IuY1waS8yr7SOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "694693192540-t86gsdv3ikfkpd23ai805rr5cidbad62.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

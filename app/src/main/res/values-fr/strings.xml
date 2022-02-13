@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Builda</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">En-tête de navigation</string>
+    <string name="action_settings">Paramètres</string>
+
+    <string name="menu_home">Domicile</string>
+    <string name="menu_gallery">Galerie</string>
+    <string name="menu_slideshow">Diaporama</string>
+    <string name="placeholder_image">PlaceHolder Image</string>
+    <string name="title_activity_check_out_detail_host">CheckOutDetailHostActivity</string>
+    <string name="title_checkout_list">Chariot</string>
+    <string name="title_checkout_detail">Détail de la caisse</string>
+    <string name="details_string">
+       Détails
+    </string>
+    <string name="add_to_cart_string">Ajouter au chariot</string>
+    <string name="share_string">Partager</string>
+    <string name="menu_account">Compte</string>
+    <string name="title_activity_cart">CartActivity</string>
+
+
+    <string name="checkout_button">VÉRIFIER</string>
+    <string name="cart">Chariot</string>
+    <string name="checkout">Vérifier</string>
+    <string name="total_text">Total:</string>
+    <string name="_plus" >+</string>
+    <string name="_minus">
+        -
+    </string>
+    <string name="cart_label">Chariot</string>
+    <string name="quantity_text">1</string>
+    <string name="shipping_label_text">Expédition</string>
+    <string name="name_label_hint">Nom</string>
+    <string name="phone_text_hint">Téléphoner</string>
+    <string name="address_hint">Adresse</string>
+    <string name="zipcode_hint">Code postal</string>
+    <string name="payment_label_text">Paiement</string>
+    <string name="cardtype_editext_hint">Type de carte</string>
+    <string name="name_on_card_hint">Nom sur la carte</string>
+    <string name="cardnumber_hint">Numéro de carte</string>
+    <string name="expired_date_hint">Date d\'expiration</string>
+    <string name="cvv_hint">CVV</string>
+    <string name="submit_order_text">Soumettre la commande</string>
+</resources>

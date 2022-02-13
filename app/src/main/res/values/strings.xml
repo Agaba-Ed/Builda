@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Builda</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id" translatable="false">YOUR_APP_ID</string>
+    <string name="facebook_login_protocol_scheme" translatable="false">fbYOUR_APP_ID</string>
+
+
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="placeholder_image">PlaceHolder Image</string>
+    <string name="title_activity_check_out_detail_host">CheckOutDetailHostActivity</string>
+    <string name="title_checkout_list">Cart</string>
+    <string name="title_checkout_detail">CheckOut Detail</string>
+    <string name="details_string">
+        Details
+    </string>
+    <string name="add_to_cart_string">Add to Cart</string>
+    <string name="share_string">Share</string>
+    <string name="menu_account">Account</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="checkout_button">CHECKOUT</string>
+    <string name="cart">Cart</string>
+    <string name="checkout">CheckOut</string>
+    <string name="total_text">Total:</string>
+    <string name="_plus">+</string>
+    <string name="_minus">
+        -
+    </string>
+    <string name="cart_label">Cart</string>
+    <string name="quantity_text">1</string>
+    <string name="confirm_button_text">Confirm</string>
+    <string name="shipping_label_text">Shipping</string>
+    <string name="name_label_hint">Name</string>
+    <string name="phone_text_hint">Phone</string>
+    <string name="address_hint">Address</string>
+    <string name="zipcode_hint">ZIP Code</string>
+    <string name="payment_label_text">Payment</string>
+    <string name="cardtype_editext_hint">Card Type</string>
+    <string name="name_on_card_hint">Name On Card</string>
+    <string name="cardnumber_hint">Card Number</string>
+    <string name="expired_date_hint">Expired Date</string>
+    <string name="cvv_hint">CVV</string>
+    <string name="submit_order_text">Submit Order</string>
+    <string name="_total_figure">0</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="action_create_account">Create Account</string>
+
+</resources>
